@@ -98,7 +98,7 @@ blockquote {
   font-size: 18px;
   padding-left: 2rem;
   margin: 4rem 0;
-  line-height: 3rem;
+  line-height: 2.4rem;
   background: rgba(255, 248, 166, 0.5);
   box-shadow: inset 0px -4px #fff8a6;
   padding: 2rem; }
@@ -107,7 +107,8 @@ blockquote {
   @media screen and (min-width: 700px) {
     blockquote {
       font-size: 24px;
-      padding: 4rem; } }
+      padding: 4rem;
+      line-height: 3rem; } }
   blockquote:before {
     content: url(/../../images/bookmark.svg);
     margin-left: -160px;

@@ -121,7 +121,7 @@ blockquote {
     font-size: 18px;
     padding-left: $spacing-unit;
     margin:  $spacing-unit * 2 0;
-    line-height:  $spacing-unit * 1.5;
+    line-height:  $spacing-unit * 1.2;
     background: rgba(255, 248, 166, 0.5);
     box-shadow: inset 0px -4px rgb(255, 248, 166);
     padding: $spacing-unit;
@@ -133,6 +133,7 @@ blockquote {
     @include media-query($on-laptop) {
         font-size: 24px;
         padding: $spacing-unit * 2;
+        line-height:  $spacing-unit * 1.5;
     }
 
     &:before {
