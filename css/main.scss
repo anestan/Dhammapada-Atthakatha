@@ -1,0 +1,51 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: 'Karla', serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 2;
+
+$spacing-unit:     2rem;
+
+$head-color:       #111;
+$text-color:       #25292d;
+$background-color: #fff;
+$brand-color:      #0090ff;
+$highlight: 	   #fff8a6;
+
+$grey-color:       #767879;
+$grey-color-light: rgba(255, 255, 255, 0.08);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    700px;
+
+$on-palm:          600px;
+$on-laptop:        700px;
+
+
+@mixin media-query($device) {
+	@media screen and (min-width: $device) {
+		@content;
+	}
+}
+
+/* Transition effect used througout Editor */
+@mixin transition {
+	-webkit-transition: all .07s ease-in;
+	-moz-transition: all .07s ease-in;
+	transition: all .07s ease-in;
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+		"base",
+		"layout",
+		"animation"
+;

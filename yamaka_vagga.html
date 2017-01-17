@@ -1,0 +1,12 @@
+---
+layout: bab_layout
+title: Bab I. Yamaka Vagga
+description: Syair Berpasangan
+---
+{% for chapter in site.yamaka_vagga %}
+	<li>
+		<a href="{{ chapter.url }}">
+			<h2>{{ chapter.title }}</h2>
+		</a>
+	</li>
+{% endfor %}

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-meta">{{ page.subtitle }}
+    - <a href="{{ page.parent }}">{{ page.parentname }}</a></div>
+  </header>
+
+  
+
+  <article class="post-content">
+    {{ content }}
+
+    {% include share.html %}
+  </article>
+
+</div>

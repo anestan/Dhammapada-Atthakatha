@@ -1,0 +1,23 @@
+# Site settings
+site: Dhammapada Attakatha
+title: Dhammapada Attakatha
+description: Kisah-kisah Dhammapada
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://anestan.github.io/Dhammapada-Attakatha/" # the base hostname & protocol for your site
+permalink: pretty
+collections:
+  yamaka_vagga:
+    output: true
+    title: Bab I - Yamaka Vagga
+    description: Syair Berpasangan
+    parent: /yamaka_vagga
+  appamada_vagga:
+    output: true
+    title: Bab II - Appamada Vagga
+    description: Kewaspadaan
+    parent: /appamada_vagga
+  jara_vagga:
+    output: true
+    title: Bab XI - Jara Vagga
+    description: Usia Tua
+    parent: /jara_vagga

@@ -1,0 +1,12 @@
+---
+layout: bab_layout
+title: Bab 2. Appamada Vagga
+description: Kewaspadaan
+---
+{% for chapter in site.appamada_vagga %}
+	<li>
+		<a href="{{ chapter.url }}">
+			<h2>{{ chapter.title }}</h2>
+		</a>
+	</li>
+{% endfor %}

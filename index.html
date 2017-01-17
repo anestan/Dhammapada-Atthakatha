@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <ul class="post-list">
+  	{% assign sorted = (site.collections | sort: 'title') %}
+  	{% for collection in sorted %}
+  	{% unless collection.label == 'posts' %}
+    <li>
+		  <a href="{{ collection.parent }}">
+        <h2>{{ collection.title }}</h2>
+        <span>{{ collection.description }}</span>
+      </a>
+
+    </li>
+   	{% endunless %}
+  	{% endfor %}
+
+  </ul>
+
+</div>
