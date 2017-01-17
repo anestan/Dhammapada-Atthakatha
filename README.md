@@ -1,18 +1,17 @@
-# A blog
+# Dhammapada Atthakatha
 
-This is where anestan writes and messes around every once in a while.
+Kisah-kisah Dhammapada
+
+
+### Judul Asli: The Dhammapada Verses and Stories
+
+Alihbahasa Inggris Ke Indonesia:
+Tim Penerjemah Vidyasena
+
+Penyunting:
+Bhikkhu Jotidhammo
+
 
 ## License
 
-The following directories and their contents are Copyright Anestan. You may not reuse anything therein without my permission:
-
-```
-_posts/
-images/
-```
-
-All other directories and files are MIT Licensed (where applicable).
-
-## Me
-
-[@blockyeleven](http://twitter.com/blockyeleven)
+For free distribution only, as a gift of dhamma.
