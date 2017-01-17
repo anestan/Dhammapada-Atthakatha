@@ -9,7 +9,7 @@ layout: default
   	{% for collection in sorted %}
   	{% unless collection.label == 'posts' %}
     <li>
-		  <a href="{{ collection.parent }}">
+		  <a href="{{ collection.parent | relative_url }}">
         <h2>{{ collection.title }}</h2>
         <span>{{ collection.description }}</span>
       </a>
