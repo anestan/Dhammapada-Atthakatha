@@ -11,6 +11,9 @@ Tim Penerjemah Vidyasena
 Penyunting:
 Bhikkhu Jotidhammo
 
+### English Version
+http://www.tipitaka.net/tipitaka/dhp/index.php
+
 
 ## License
 
