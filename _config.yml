@@ -1,6 +1,6 @@
 # Site settings
-site: Dhammapada Attakatha
-title: Dhammapada Attakatha
+site: Dhammapada Atthakatha
+title: Dhammapada Atthakatha
 description: Kisah-kisah Dhammapada
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://anestan.github.io/Dhammapada-Atthakatha/" # the base hostname & protocol for your site
