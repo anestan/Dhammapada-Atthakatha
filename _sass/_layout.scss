@@ -188,6 +188,13 @@
     @include media-query($on-laptop) {
         font-size: $base-font-size;
     }
+
+    span {
+        &:before {
+            content: '•';
+            padding: 0 7px;
+        }
+    }
 }
 
 .post-link {
@@ -223,7 +230,7 @@
 
     @include media-query($on-laptop) {
         font-size: 3rem;
-        line-height: 3rem;
+        line-height: 3.4rem;
         letter-spacing: -1px;
     }
 }
@@ -297,16 +304,30 @@
 }
 
 .bab-content {
-    padding: 20px;
+    padding: 20px 0;
+
+    @include media-query($on-laptop) {
+        padding: 20px;
+    }
+
     h2 {
         transition: color .2s ease-in-out;
         margin-bottom: 0;
+        display: inline-block;
+    }
+    span {
+        color: #767879;
+        &:before {
+            content: '•';
+            padding: 0 7px;
+        }
     }
     ol {
         position: relative;
+        margin: 0;
     }
     li {
-        list-style-type: decimal-leading-zero;
+        list-style: none;
         position: relative;
         padding: 10px 0;
     }

@@ -1,7 +1,7 @@
 ---
 layout: abhidhamma_layout
 title: Kisah Matthakundali
-subtitle: DHAMMAPADA I, 2
+bab: 2
 parent: "../../yamaka_vagga"
 parentname: Bab I - Yamaka Vagga
 ---

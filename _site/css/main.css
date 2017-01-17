@@ -338,6 +338,9 @@ hr {
   @media screen and (min-width: 700px) {
     .post-meta {
       font-size: 16px; } }
+  .post-meta span:before {
+    content: '•';
+    padding: 0 7px; }
 
 .post-link {
   display: block;
@@ -366,7 +369,7 @@ hr {
   @media screen and (min-width: 700px) {
     .post-title {
       font-size: 3rem;
-      line-height: 3rem;
+      line-height: 3.4rem;
       letter-spacing: -1px; } }
 
 .post-content {
@@ -418,14 +421,24 @@ hr {
         width: 40%; } }
 
 .bab-content {
-  padding: 20px; }
+  padding: 20px 0; }
+  @media screen and (min-width: 700px) {
+    .bab-content {
+      padding: 20px; } }
   .bab-content h2 {
     transition: color .2s ease-in-out;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    display: inline-block; }
+  .bab-content span {
+    color: #767879; }
+    .bab-content span:before {
+      content: '•';
+      padding: 0 7px; }
   .bab-content ol {
-    position: relative; }
+    position: relative;
+    margin: 0; }
   .bab-content li {
-    list-style-type: decimal-leading-zero;
+    list-style: none;
     position: relative;
     padding: 10px 0; }
   .bab-content a {

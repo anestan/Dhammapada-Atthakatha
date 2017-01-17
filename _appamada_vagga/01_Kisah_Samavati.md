@@ -1,7 +1,7 @@
 ---
 layout: abhidhamma_layout
 title: Kisah Samavati
-subtitle: DHAMMAPADA II, 1-3
+bab: 1-3
 parent: "../../appamada_vagga"
 parentname: Bab II - Appamada Vagga
 ---

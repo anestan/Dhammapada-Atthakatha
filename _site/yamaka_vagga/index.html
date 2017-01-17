@@ -16,7 +16,7 @@
 	<meta property="og:url" content="/yamaka_vagga/" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Bab I. Yamaka Vagga | Dhammapada Atthakatha" />
-	<meta property="og:description" content="{% for chapter in site.yamaka_vagga %}	&lt;li&gt;					&lt;h2&gt;{{ chapter.title }}&lt;/h2&gt;			&lt;/li&gt;{% endfor %}" />
+	<meta property="og:description" content="{% for chapter in site.yamaka_vagga %}	&lt;li&gt;					&lt;h2&gt;{{ chapter.title }}&lt;/h2&gt;			{{ chapter.bab }}			&lt;/li&gt;{% endfor %}" />
 </head>
 
 
@@ -57,18 +57,35 @@
 	<li>
 		<a href="/yamaka_vagga/01_Kisah_Cakkhupala_Thera/">
 			<h2>Kisah Cakkhupala Thera</h2>
+			<span>1</span>
 		</a>
 	</li>
 
 	<li>
 		<a href="/yamaka_vagga/02_Kisah_Matthakundali/">
 			<h2>Kisah Matthakundali</h2>
+			<span>2</span>
 		</a>
 	</li>
 
 	<li>
-		<a href="/yamaka_vagga/11_Kisah_Kalayakkhini/">
+		<a href="/yamaka_vagga/03_Kisah_Tissa_Thera/">
+			<h2>Kisah Tissa Thera</h2>
+			<span>3-4</span>
+		</a>
+	</li>
+
+	<li>
+		<a href="/yamaka_vagga/05_Kisah_Kalayakkhini/">
 			<h2>Kisah Kalayakkhini</h2>
+			<span>5</span>
+		</a>
+	</li>
+
+	<li>
+		<a href="/yamaka_vagga/06_Kisah_Pertengkaran_di_Kosambi/">
+			<h2>Kisah Pertengkaran di Kosambi</h2>
+			<span>6</span>
 		</a>
 	</li>
 
