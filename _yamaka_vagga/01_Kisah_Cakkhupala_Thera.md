@@ -1,7 +1,7 @@
 ---
 layout: abhidhamma_layout
 title: Kisah Cakkhupala Thera
-bab: 1
+bab: Syair 1
 parent: "../../yamaka_vagga"
 parentname: Bab I - Yamaka Vagga
 ---

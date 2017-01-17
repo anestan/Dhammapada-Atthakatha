@@ -5,6 +5,9 @@ description: Kisah-kisah Dhammapada
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://anestan.github.io/Dhammapada-Atthakatha/" # the base hostname & protocol for your site
 permalink: pretty
+gems:
+  - jekyll-seo-tag
+google_analytics: UA-44222473-2
 collections:
   yamaka_vagga:
     output: true

@@ -1,7 +1,7 @@
 ---
 layout: abhidhamma_layout
 title: Kisah Pertengkaran di Kosambi
-bab: 6
+bab: Syair 6
 parent: "../../yamaka_vagga"
 parentname: Bab I - Yamaka Vagga
 ---

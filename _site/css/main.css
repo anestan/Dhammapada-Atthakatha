@@ -430,10 +430,11 @@ hr {
     margin-bottom: 0;
     display: inline-block; }
   .bab-content span {
-    color: #767879; }
+    color: #767879;
+    font-size: 80%; }
     .bab-content span:before {
       content: '•';
-      padding: 0 7px; }
+      padding: 0 9px 0 7px; }
   .bab-content ol {
     position: relative;
     margin: 0; }

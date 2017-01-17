@@ -1,7 +1,7 @@
 ---
 layout: abhidhamma_layout
 title: Kisah Kalayakkhini
-bab: 5
+bab: Syair 5
 parent: "../../yamaka_vagga"
 parentname: Bab I - Yamaka Vagga
 ---

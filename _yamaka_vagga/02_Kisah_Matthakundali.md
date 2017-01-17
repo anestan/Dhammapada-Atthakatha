@@ -1,7 +1,7 @@
 ---
 layout: abhidhamma_layout
 title: Kisah Matthakundali
-bab: 2
+bab: Syair 2
 parent: "../../yamaka_vagga"
 parentname: Bab I - Yamaka Vagga
 ---

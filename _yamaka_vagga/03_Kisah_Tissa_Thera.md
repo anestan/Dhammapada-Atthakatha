@@ -1,7 +1,7 @@
 ---
 layout: abhidhamma_layout
 title: Kisah Tissa Thera
-bab: 3-4
+bab: Syair 3-4
 parent: "../../yamaka_vagga"
 parentname: Bab I - Yamaka Vagga
 ---
