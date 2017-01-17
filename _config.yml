@@ -3,7 +3,7 @@ site: Dhammapada Attakatha
 title: Dhammapada Attakatha
 description: Kisah-kisah Dhammapada
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://anestan.github.io/Dhammapada-Attakatha/" # the base hostname & protocol for your site
+url: "http://anestan.github.io/Dhammapada-Atthakatha/" # the base hostname & protocol for your site
 permalink: pretty
 collections:
   yamaka_vagga:
